@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.a
+{
+color: #fff;
+text-align: center;
+text-decoration: none;
+padding: 1em 0;
+display: inline-block;
+font-weight: bold;
+}
+
+.right-menu li
+{
+display: inline-block;
+margin-top: 50px !important;
+
+}
+.right-menu .fa
+{
+    font-size:19px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.navbar-brand img
+{
+    width: 260px;
+}
+.navbar-barand
+{
+    left: 50%;
+    top: 25px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.header
+{
+    background: #f1d740;
+    margin-bottom: 80px;
+}
+.navbar
+{
+    padding: 0 35px !important;
+}
+.banner-img
+{
+ margin: 80px 115px;
+ width: 60%;
+}
+.banner-img img
+{
+    width: 100%;
+    margin-bottom: -80px;
+}
+.banner
+{
+    position: relative;
+}
+.banner-title
+{
+    position: absolute;
+    left: 70%;
+    top: 20%
+}
+.banner-title h5
+{
+    font-size: 55px;
+    background: rgba(0,0,0,0.75);
+    color: #fff;
+    line-height: 77px;
+    padding: 0 10px 0 10px;
+}
+.missindia-trends
+{
+    padding: 70px 0;
+}
+.missindia-box
+{
+    margin: 50px 0;
+    margin-top:2rem;
+}
+.title-style h2
+{
+    padding: 40px 0;
+}
+.title-style
+{
+    margin: 0 auto 60px;
+    height: 100px;
+    width: 60%;
+    max-width: 600px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0  40px  5px  0 rgba(0,0,50,0.1);
+}
+.title-style::after
+{
+    content: '';
+    height: 100px;
+    width: 100px;
+    background-color: #ec8611;
+    position:absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+.title-style::before
+{
+    content: '';
+    height: 100px;
+    width: 100px;
+    background-color: #d47d0b;
+    position:absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+.trending-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.trending-img
+{
+    width: 100%;
+   
+}
+
+
+.missindia-trends
+{
+    padding: 100px 0;
+}
+.missindia-box
+{
+    margin: 80px 0;
+    margin-top:2rem;
+}
+
+h3
+{
+font-family: 'roboto';
+margin: 100px auto;
+text-align: center;
+font-size: 10px;
+max-width: 550px;
+position: relative;
+
+}
+h3:before
+{
+    content: "";
+    display:block;
+    width: 120px;
+    height: 2px;
+    background:rgb(248, 62, 15);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+
+    border-top: 2px solid #bbb;
+    border-bottom: 2px solid #bbb;
+}
+
+
+h3:after
+{
+    content: "";
+    display:block;
+    width: 120px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+
+    border-top: 2px solid #bbb;
+    border-bottom: 2px solid #bbb;
+}
+
+.section-header h2
+{
+font-family: baloo;
+font-size: 50px;
+margin-bottom: 50px;
+}
+
+.single-team
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.single-team:after,
+.single-team:before
+{
+    position: absolute;
+    content: '';
+}
+
+.single-team:before
+{
+    width: 90%;
+    height: 220%;
+    background:rgba(221, 43, 126, 0.76);
+    top:-68%;
+    left:-100%;
+    z-index:1;
+    transform: rotate(21deg);
+    transform-origin: center top 0;
+    transition: all .5s ease 0s;
+}
+.single-team:hover:before
+{
+    left: 10%;
+}
+.single-team .team-text
+{
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    left:0;
+    z-index:4;
+    transition: all 1.1s ease 0s;
+}
+.single-team:hover::after{
+    bottom: 70%;
+}
+.single-team img
+{
+   width: 80%;
+   height: 310px;
+    
+}
+.single-team .team-text
+{
+    bottom: 50px;
+}
+.single-team h4
+{
+    font-size: 25px;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-family: Audiowide;
+}
+.single-team p
+{
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin-top: 2px;
+    font-family: robot;
+    color:rgb(240, 236, 10);
+}
+.team-text i
+{
+    font-size: 20px;
+    margin: 0 5px;
+    color: white;
+}
+
+
+
+body
+{
+    background: white;
+}
+.section-padding
+{
+    padding: 100px;
+    transition: all 0.5s ease 0s;
+    border-block: 1px;
+    height: 300px;
+    margin: 20px;
+}
+.symbol
+{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    transition: all 0.4s ease 0s;
+    width: 60px;
+    background: #fff;
+    border-radius: 50px;
+    color: #333;
+    display: inline-block;
+    font-size: 20px;
+    height: 30px;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+.single-service h4
+{
+    font-family: Baloo;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    top:90px;
+    transition: all 700ms cubic-bezier (0.65, -0.50 0.255, 1.50) 0s;
+}
+.single-service:hover
+{
+    background: #20639b;
+    border: 2px solid #20639b;
+}
+.single-service:hover .symbol
+{
+    top: -10px;
+    color: #20639b;
+}
+.single-service:hover h4
+{
+    color: #fff;
+    top: 0;
+    margin-bottom: 15px;
+}
+.single-service p
+{
+    opacity: 0;
+    transition: all 700ms cubic-bezier (0.65, -0.50 0.255, 1.50) 0s;
+     
+}
+
+.offer
+{
+    background-image: url(../images/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.row
+{
+    margin: initial !important;
+   
+}
+.Subscribe
+{
+    max-width: 500px;
+    margin-top: 80px;
+    padding: 60px;
+    background: #ffffff8c;
+    margin-bottom: 20px;
+    margin-left: 53rem;
+}
+.subscribe a
+{
+width: 100px;
+display:block;
+color: #fff !important;
+background: #000;
+text-decoration:none;
+padding: 5px;
+text-align: center; 
+}
+.offer img
+{
+width: 300px;
+height: 400px;
+margin: -100px;
+margin-top: 150px;
+
+}
+.missindia-blog
+{
+margin: 200px 0 100px;
+
+}
+
+
+
